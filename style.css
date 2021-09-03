@@ -1,0 +1,133 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(g12.jpg);
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-repeat: no-repeat;
+    
+}
+
+.left{
+    position:absolute;
+    left: 35px;
+    top: 20px;
+    display: inline-bolck;
+    /* border: 2px solid red; */
+}
+
+.left img{
+    width: 75px;
+    filter: invert(100%);
+    padding: 6px 63px;
+}
+.left div{
+    color: solid white;
+    text-align: center;
+    font-size: 19px;
+    line-height: 20px;
+}
+
+.mid{
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: yellow;
+}
+
+
+.right{
+    position:absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-bolck;
+    /* border: 2px solid yellow; */
+}
+
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: black;
+    color: white;
+    padding: 7px 8px;
+    margin: 19px 5px;
+    border: 2px solid  grey;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 130px 44px;
+    /* margin: 87px 977px; */
+    padding: 25px 24px;
+    width: 30%;
+    border-radius: 16px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.form-group input{
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive; 
+    display: block;
+    color: solid black;
+    width: a420px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 12px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    
+}
+
+.container button{
+    display: block;
+    text-align: center;
+    width: 410px;
+    margin: 17px auto;
+}
+
+.btn2{
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    margin: auto;
+    border: 2px solid  grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: rgb(248, 17, 0);
+}
